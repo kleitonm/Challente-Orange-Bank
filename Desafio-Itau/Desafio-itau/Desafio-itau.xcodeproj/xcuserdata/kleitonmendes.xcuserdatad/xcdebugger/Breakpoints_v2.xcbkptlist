@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D8415CB1-8422-4B21-9EC8-1C7C85895B9B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C540A34-D53C-4837-A9A8-E5AF0AF16862"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/UI/ReceiptViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "didLoadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C540A34-D53C-4837-A9A8-E5AF0AF16862 - e9cb8c13a6e1dfac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Desafio_itau.ReceiptViewController.didLoadData() -&gt; ()"
+                  moduleName = "Desafio-itau"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kleitonmendes/Documents/Documentos%20-%20MacBook%20Air%20de%20Kleiton/Estudos/Swift/Mentoria-Thiago/Desafio-Itau/Desafio-itau/Desafio-itau/Scenes/Features/Receipt-List/UI/ReceiptViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46">
+               </Location>
+               <Location
+                  uuid = "2C540A34-D53C-4837-A9A8-E5AF0AF16862 - 2892226454e7c39a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Desafio_itau.DataModel, Swift.Error&gt;) -&gt; () in Desafio_itau.ReceiptViewController.didLoadData() -&gt; ()"
+                  moduleName = "Desafio-itau"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kleitonmendes/Documents/Documentos%20-%20MacBook%20Air%20de%20Kleiton/Estudos/Swift/Mentoria-Thiago/Desafio-Itau/Desafio-itau/Desafio-itau/Scenes/Features/Receipt-List/UI/ReceiptViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "128C1293-4DE5-4CF7-81F4-77C575147C9F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/ViewModel/ReceiptViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "loadJson(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "128C1293-4DE5-4CF7-81F4-77C575147C9F - 733cfb0b36318001"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Desafio_itau.ReceiptViewModel.loadJson(completion: (Swift.Result&lt;Desafio_itau.DataModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Desafio-itau"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kleitonmendes/Documents/Documentos%20-%20MacBook%20Air%20de%20Kleiton/Estudos/Swift/Mentoria-Thiago/Desafio-Itau/Desafio-itau/Desafio-itau/Scenes/Features/Receipt-List/ViewModel/ReceiptViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21">
+               </Location>
+               <Location
+                  uuid = "128C1293-4DE5-4CF7-81F4-77C575147C9F - 8dc5bb0964fa4dcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Desafio_itau.DataModel, Swift.Error&gt;) -&gt; () in Desafio_itau.ReceiptViewModel.loadJson(completion: (Swift.Result&lt;Desafio_itau.DataModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Desafio-itau"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kleitonmendes/Documents/Documentos%20-%20MacBook%20Air%20de%20Kleiton/Estudos/Swift/Mentoria-Thiago/Desafio-Itau/Desafio-itau/Desafio-itau/Scenes/Features/Receipt-List/ViewModel/ReceiptViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A52B74F-7F4E-40D7-909B-091273927FDB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/Service/ReceiptService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "loadJson(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1A52B74F-7F4E-40D7-909B-091273927FDB - 59022fe663197443"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Desafio_itau.ReceiptService.loadJson(completion: (Swift.Result&lt;Desafio_itau.DataModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Desafio-itau"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kleitonmendes/Documents/Documentos%20-%20MacBook%20Air%20de%20Kleiton/Estudos/Swift/Mentoria-Thiago/Desafio-Itau/Desafio-itau/Desafio-itau/Scenes/Features/Receipt-List/Service/ReceiptService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18">
+               </Location>
+               <Location
+                  uuid = "1A52B74F-7F4E-40D7-909B-091273927FDB - 59022fe663197443"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Desafio_itau.ReceiptService.loadJson(completion: (Swift.Result&lt;Desafio_itau.DataModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Desafio-itau"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kleitonmendes/Documents/Documentos%20-%20MacBook%20Air%20de%20Kleiton/Estudos/Swift/Mentoria-Thiago/Desafio-Itau/Desafio-itau/Desafio-itau/Scenes/Features/Receipt-List/Service/ReceiptService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DEC76AC-0496-4977-9BB8-976FD668C0A6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/Service/ReceiptService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "loadJson(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FEEC28D-FFBE-48CD-A316-D72EF97C733A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/Service/ReceiptService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "loadJson(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "647D6DBB-9F73-4F56-945D-FD78BCD46208"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/UI/ReceiptViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "didLoadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7C1DCDE-BF83-4E9D-B857-61615392DF12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/UI/ReceiptViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "didLoadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B04E7795-2AB7-48FD-9DDA-90ECE40CE571"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/ViewModel/ReceiptViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "loadJson(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B7F8AEC-B6E4-4592-956C-767EB2A8B873"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/ViewModel/ReceiptViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "loadJson(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F6026A4-3445-4889-A9B7-7C83E9DC55F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/Service/ReceiptService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "loadJson(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F6026A4-3445-4889-A9B7-7C83E9DC55F8 - 59022fe66319749d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Desafio_itau.ReceiptService.loadJson(completion: (Swift.Result&lt;Desafio_itau.DataModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Desafio-itau"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kleitonmendes/Documents/Documentos%20-%20MacBook%20Air%20de%20Kleiton/Estudos/Swift/Mentoria-Thiago/Desafio-Itau/Desafio-itau/Desafio-itau/Scenes/Features/Receipt-List/Service/ReceiptService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20">
+               </Location>
+               <Location
+                  uuid = "1F6026A4-3445-4889-A9B7-7C83E9DC55F8 - 59022fe66319749d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Desafio_itau.ReceiptService.loadJson(completion: (Swift.Result&lt;Desafio_itau.DataModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Desafio-itau"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kleitonmendes/Documents/Documentos%20-%20MacBook%20Air%20de%20Kleiton/Estudos/Swift/Mentoria-Thiago/Desafio-Itau/Desafio-itau/Desafio-itau/Scenes/Features/Receipt-List/Service/ReceiptService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E378236-DB5B-441B-AC95-3CF368D49267"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio-itau/Scenes/Features/Receipt-List/Service/ReceiptService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "loadJson(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

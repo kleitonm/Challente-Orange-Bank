@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB790A732C6FF4550072B0F2 /* DetailsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB790A722C6FF4550072B0F2 /* DetailsFactory.swift */; };
+		FB790A752C6FF4920072B0F2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB790A742C6FF4920072B0F2 /* DetailsViewController.swift */; };
+		FB790A772C6FF4B60072B0F2 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB790A762C6FF4B60072B0F2 /* DetailsView.swift */; };
+		FB8161072C69782400410975 /* ReceiptsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8161062C69782400410975 /* ReceiptsCell.swift */; };
+		FB8161092C697C4900410975 /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8161082C697C4900410975 /* ReceiptView.swift */; };
+		FBE1FCE82C6968B600163054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1FCE72C6968B600163054 /* AppDelegate.swift */; };
+		FBE1FCEC2C6968B600163054 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1FCEB2C6968B600163054 /* ReceiptViewController.swift */; };
+		FBE1FCF12C6968B700163054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE1FCF02C6968B700163054 /* Assets.xcassets */; };
+		FBE1FCF42C6968B700163054 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FBE1FCF32C6968B700163054 /* Base */; };
+		FBE1FCFF2C6968B700163054 /* Desafio_itauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1FCFE2C6968B700163054 /* Desafio_itauTests.swift */; };
+		FBE1FD092C6968B700163054 /* Desafio_itauUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1FD082C6968B700163054 /* Desafio_itauUITests.swift */; };
+		FBE1FD0B2C6968B700163054 /* Desafio_itauUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1FD0A2C6968B700163054 /* Desafio_itauUITestsLaunchTests.swift */; };
+		FBE1FD282C696C1700163054 /* receiptMock.json in Resources */ = {isa = PBXBuildFile; fileRef = FBE1FD272C696C1700163054 /* receiptMock.json */; };
+		FBE1FD2B2C69706400163054 /* ReceiptFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1FD2A2C69706400163054 /* ReceiptFactory.swift */; };
+		FBE1FD2D2C69713500163054 /* ReceiptModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1FD2C2C69713500163054 /* ReceiptModels.swift */; };
+		FBE1FD2F2C69731000163054 /* ReceiptService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1FD2E2C69731000163054 /* ReceiptService.swift */; };
+		FBE1FD312C69736400163054 /* ReceiptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1FD302C69736400163054 /* ReceiptViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBE1FCFB2C6968B700163054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE1FCDC2C6968B600163054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE1FCE32C6968B600163054;
+			remoteInfo = "Desafio-itau";
+		};
+		FBE1FD052C6968B700163054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE1FCDC2C6968B600163054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE1FCE32C6968B600163054;
+			remoteInfo = "Desafio-itau";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB790A722C6FF4550072B0F2 /* DetailsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFactory.swift; sourceTree = "<group>"; };
+		FB790A742C6FF4920072B0F2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FB790A762C6FF4B60072B0F2 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		FB8161062C69782400410975 /* ReceiptsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsCell.swift; sourceTree = "<group>"; };
+		FB8161082C697C4900410975 /* ReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
+		FBE1FCE42C6968B600163054 /* Desafio-itau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio-itau.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE1FCE72C6968B600163054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBE1FCEB2C6968B600163054 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		FBE1FCF02C6968B700163054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBE1FCF32C6968B700163054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBE1FCF52C6968B700163054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE1FCFA2C6968B700163054 /* Desafio-itauTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio-itauTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE1FCFE2C6968B700163054 /* Desafio_itauTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_itauTests.swift; sourceTree = "<group>"; };
+		FBE1FD042C6968B700163054 /* Desafio-itauUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio-itauUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE1FD082C6968B700163054 /* Desafio_itauUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_itauUITests.swift; sourceTree = "<group>"; };
+		FBE1FD0A2C6968B700163054 /* Desafio_itauUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_itauUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBE1FD272C696C1700163054 /* receiptMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = receiptMock.json; sourceTree = "<group>"; };
+		FBE1FD2A2C69706400163054 /* ReceiptFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptFactory.swift; sourceTree = "<group>"; };
+		FBE1FD2C2C69713500163054 /* ReceiptModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptModels.swift; sourceTree = "<group>"; };
+		FBE1FD2E2C69731000163054 /* ReceiptService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptService.swift; sourceTree = "<group>"; };
+		FBE1FD302C69736400163054 /* ReceiptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE1FCE12C6968B600163054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1FCF72C6968B700163054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1FD012C6968B700163054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB790A782C769CE00072B0F2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FB790A792C769CF40072B0F2 /* Feature */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FB790A792C769CF40072B0F2 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				FB790A7B2C769D000072B0F2 /* Details */,
+				FB790A7A2C769CFD0072B0F2 /* ReceiptList */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		FB790A7A2C769CFD0072B0F2 /* ReceiptList */ = {
+			isa = PBXGroup;
+			children = (
+				FB790A822C769D590072B0F2 /* Factory */,
+				FB790A812C769D4F0072B0F2 /* Service */,
+				FB790A802C769D450072B0F2 /* ViewModel */,
+				FB790A7F2C769D420072B0F2 /* UI */,
+			);
+			path = ReceiptList;
+			sourceTree = "<group>";
+		};
+		FB790A7B2C769D000072B0F2 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				FB790A7E2C769D1F0072B0F2 /* Spy */,
+				FB790A7D2C769D1D0072B0F2 /* Factory */,
+				FB790A7C2C769D150072B0F2 /* UI */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		FB790A7C2C769D150072B0F2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FB790A7D2C769D1D0072B0F2 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		FB790A7E2C769D1F0072B0F2 /* Spy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Spy;
+			sourceTree = "<group>";
+		};
+		FB790A7F2C769D420072B0F2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FB790A802C769D450072B0F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB790A812C769D4F0072B0F2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FB790A822C769D590072B0F2 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		FBE1FCDB2C6968B600163054 = {
+			isa = PBXGroup;
+			children = (
+				FBE1FCE62C6968B600163054 /* Desafio-itau */,
+				FBE1FCFD2C6968B700163054 /* Desafio-itauTests */,
+				FBE1FD072C6968B700163054 /* Desafio-itauUITests */,
+				FBE1FCE52C6968B600163054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE1FCE52C6968B600163054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FCE42C6968B600163054 /* Desafio-itau.app */,
+				FBE1FCFA2C6968B700163054 /* Desafio-itauTests.xctest */,
+				FBE1FD042C6968B700163054 /* Desafio-itauUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE1FCE62C6968B600163054 /* Desafio-itau */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FD292C696C8E00163054 /* Utils */,
+				FBE1FD1A2C6968E800163054 /* Start */,
+				FBE1FD192C6968E400163054 /* Resources */,
+				FBE1FD182C6968E000163054 /* Scenes */,
+			);
+			path = "Desafio-itau";
+			sourceTree = "<group>";
+		};
+		FBE1FCFD2C6968B700163054 /* Desafio-itauTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB790A782C769CE00072B0F2 /* Scenes */,
+				FBE1FCFE2C6968B700163054 /* Desafio_itauTests.swift */,
+			);
+			path = "Desafio-itauTests";
+			sourceTree = "<group>";
+		};
+		FBE1FD072C6968B700163054 /* Desafio-itauUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FD082C6968B700163054 /* Desafio_itauUITests.swift */,
+				FBE1FD0A2C6968B700163054 /* Desafio_itauUITestsLaunchTests.swift */,
+			);
+			path = "Desafio-itauUITests";
+			sourceTree = "<group>";
+		};
+		FBE1FD172C6968DC00163054 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FD1C2C696AA400163054 /* Details */,
+				FBE1FD1B2C696A7800163054 /* Receipt-List */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FBE1FD182C6968E000163054 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FD172C6968DC00163054 /* Features */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FBE1FD192C6968E400163054 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FCF02C6968B700163054 /* Assets.xcassets */,
+				FBE1FCF22C6968B700163054 /* LaunchScreen.storyboard */,
+				FBE1FCF52C6968B700163054 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBE1FD1A2C6968E800163054 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FCE72C6968B600163054 /* AppDelegate.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		FBE1FD1B2C696A7800163054 /* Receipt-List */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FD212C696ADD00163054 /* Factory */,
+				FBE1FD202C696AD700163054 /* Models */,
+				FBE1FD1F2C696AC000163054 /* Service */,
+				FBE1FD1E2C696ABD00163054 /* ViewModel */,
+				FBE1FD1D2C696ABA00163054 /* UI */,
+			);
+			path = "Receipt-List";
+			sourceTree = "<group>";
+		};
+		FBE1FD1C2C696AA400163054 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FD262C696B2E00163054 /* Factory */,
+				FBE1FD252C696B2B00163054 /* UI */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		FBE1FD1D2C696ABA00163054 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FCEB2C6968B600163054 /* ReceiptViewController.swift */,
+				FB8161062C69782400410975 /* ReceiptsCell.swift */,
+				FB8161082C697C4900410975 /* ReceiptView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FBE1FD1E2C696ABD00163054 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FD302C69736400163054 /* ReceiptViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FBE1FD1F2C696AC000163054 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FD272C696C1700163054 /* receiptMock.json */,
+				FBE1FD2E2C69731000163054 /* ReceiptService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FBE1FD202C696AD700163054 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FD2C2C69713500163054 /* ReceiptModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FBE1FD212C696ADD00163054 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1FD2A2C69706400163054 /* ReceiptFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		FBE1FD252C696B2B00163054 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FB790A742C6FF4920072B0F2 /* DetailsViewController.swift */,
+				FB790A762C6FF4B60072B0F2 /* DetailsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FBE1FD262C696B2E00163054 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				FB790A722C6FF4550072B0F2 /* DetailsFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		FBE1FD292C696C8E00163054 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE1FCE32C6968B600163054 /* Desafio-itau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE1FD0E2C6968B700163054 /* Build configuration list for PBXNativeTarget "Desafio-itau" */;
+			buildPhases = (
+				FBE1FCE02C6968B600163054 /* Sources */,
+				FBE1FCE12C6968B600163054 /* Frameworks */,
+				FBE1FCE22C6968B600163054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio-itau";
+			productName = "Desafio-itau";
+			productReference = FBE1FCE42C6968B600163054 /* Desafio-itau.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBE1FCF92C6968B700163054 /* Desafio-itauTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE1FD112C6968B700163054 /* Build configuration list for PBXNativeTarget "Desafio-itauTests" */;
+			buildPhases = (
+				FBE1FCF62C6968B700163054 /* Sources */,
+				FBE1FCF72C6968B700163054 /* Frameworks */,
+				FBE1FCF82C6968B700163054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE1FCFC2C6968B700163054 /* PBXTargetDependency */,
+			);
+			name = "Desafio-itauTests";
+			productName = "Desafio-itauTests";
+			productReference = FBE1FCFA2C6968B700163054 /* Desafio-itauTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBE1FD032C6968B700163054 /* Desafio-itauUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE1FD142C6968B700163054 /* Build configuration list for PBXNativeTarget "Desafio-itauUITests" */;
+			buildPhases = (
+				FBE1FD002C6968B700163054 /* Sources */,
+				FBE1FD012C6968B700163054 /* Frameworks */,
+				FBE1FD022C6968B700163054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE1FD062C6968B700163054 /* PBXTargetDependency */,
+			);
+			name = "Desafio-itauUITests";
+			productName = "Desafio-itauUITests";
+			productReference = FBE1FD042C6968B700163054 /* Desafio-itauUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE1FCDC2C6968B600163054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FBE1FCE32C6968B600163054 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FBE1FCF92C6968B700163054 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FBE1FCE32C6968B600163054;
+					};
+					FBE1FD032C6968B700163054 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FBE1FCE32C6968B600163054;
+					};
+				};
+			};
+			buildConfigurationList = FBE1FCDF2C6968B600163054 /* Build configuration list for PBXProject "Desafio-itau" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBE1FCDB2C6968B600163054;
+			productRefGroup = FBE1FCE52C6968B600163054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE1FCE32C6968B600163054 /* Desafio-itau */,
+				FBE1FCF92C6968B700163054 /* Desafio-itauTests */,
+				FBE1FD032C6968B700163054 /* Desafio-itauUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE1FCE22C6968B600163054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE1FCF12C6968B700163054 /* Assets.xcassets in Resources */,
+				FBE1FD282C696C1700163054 /* receiptMock.json in Resources */,
+				FBE1FCF42C6968B700163054 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1FCF82C6968B700163054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1FD022C6968B700163054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE1FCE02C6968B600163054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB790A732C6FF4550072B0F2 /* DetailsFactory.swift in Sources */,
+				FBE1FCEC2C6968B600163054 /* ReceiptViewController.swift in Sources */,
+				FB8161072C69782400410975 /* ReceiptsCell.swift in Sources */,
+				FBE1FD2F2C69731000163054 /* ReceiptService.swift in Sources */,
+				FB8161092C697C4900410975 /* ReceiptView.swift in Sources */,
+				FBE1FD2B2C69706400163054 /* ReceiptFactory.swift in Sources */,
+				FB790A772C6FF4B60072B0F2 /* DetailsView.swift in Sources */,
+				FBE1FD2D2C69713500163054 /* ReceiptModels.swift in Sources */,
+				FBE1FCE82C6968B600163054 /* AppDelegate.swift in Sources */,
+				FBE1FD312C69736400163054 /* ReceiptViewModel.swift in Sources */,
+				FB790A752C6FF4920072B0F2 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1FCF62C6968B700163054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE1FCFF2C6968B700163054 /* Desafio_itauTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1FD002C6968B700163054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE1FD092C6968B700163054 /* Desafio_itauUITests.swift in Sources */,
+				FBE1FD0B2C6968B700163054 /* Desafio_itauUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBE1FCFC2C6968B700163054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE1FCE32C6968B600163054 /* Desafio-itau */;
+			targetProxy = FBE1FCFB2C6968B700163054 /* PBXContainerItemProxy */;
+		};
+		FBE1FD062C6968B700163054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE1FCE32C6968B600163054 /* Desafio-itau */;
+			targetProxy = FBE1FD052C6968B700163054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBE1FCF22C6968B700163054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE1FCF32C6968B700163054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBE1FD0C2C6968B700163054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBE1FD0D2C6968B700163054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE1FD0F2C6968B700163054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Desafio-itau/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kleiton.Desafio-itau";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FBE1FD102C6968B700163054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Desafio-itau/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kleiton.Desafio-itau";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FBE1FD122C6968B700163054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kleiton.Desafio-itauTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio-itau.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Desafio-itau";
+			};
+			name = Debug;
+		};
+		FBE1FD132C6968B700163054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kleiton.Desafio-itauTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio-itau.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Desafio-itau";
+			};
+			name = Release;
+		};
+		FBE1FD152C6968B700163054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kleiton.Desafio-itauUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desafio-itau";
+			};
+			name = Debug;
+		};
+		FBE1FD162C6968B700163054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kleiton.Desafio-itauUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desafio-itau";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE1FCDF2C6968B600163054 /* Build configuration list for PBXProject "Desafio-itau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1FD0C2C6968B700163054 /* Debug */,
+				FBE1FD0D2C6968B700163054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE1FD0E2C6968B700163054 /* Build configuration list for PBXNativeTarget "Desafio-itau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1FD0F2C6968B700163054 /* Debug */,
+				FBE1FD102C6968B700163054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE1FD112C6968B700163054 /* Build configuration list for PBXNativeTarget "Desafio-itauTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1FD122C6968B700163054 /* Debug */,
+				FBE1FD132C6968B700163054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE1FD142C6968B700163054 /* Build configuration list for PBXNativeTarget "Desafio-itauUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1FD152C6968B700163054 /* Debug */,
+				FBE1FD162C6968B700163054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBE1FCDC2C6968B600163054 /* Project object */;
+}
